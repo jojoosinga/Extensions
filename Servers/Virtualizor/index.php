@@ -126,6 +126,7 @@ function Virtualizor_getProductConfig()
             'options' => $allplans,
         ],
     ];
+}
 
 function Virtualizor_createServer($user, $params, $order, $product, $configurableOptions)
 {
